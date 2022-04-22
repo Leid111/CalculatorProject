@@ -1,0 +1,79 @@
+.body-grid {
+  display: grid;
+  max-width: 40vw;
+  max-height: 80vh;
+  gap: 5%;
+  grid-template-areas: "out out out out" "seven eight nine div" "four five six product" "one two three minus" "nill deci plus equal" "bkspc clr clr equal";
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #595959;
+}
+.body-grid__output {
+  grid-area: out;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #cfe0cf;
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+}
+.body-grid__button7 {
+  grid-area: seven;
+  border: 5px solid pink;
+}
+.body-grid__button7--standard {
+  background-color: #f2f2f2;
+}
+.body-grid__buttondivide {
+  grid-area: div;
+}
+.body-grid__button9 {
+  grid-area: nine;
+}
+.body-grid__button8 {
+  grid-area: eight;
+}
+.body-grid__button6 {
+  grid-area: six;
+}
+.body-grid__button5 {
+  grid-area: five;
+}
+.body-grid__button4 {
+  grid-area: four;
+}
+.body-grid__button3 {
+  grid-area: three;
+}
+.body-grid__button2 {
+  grid-area: two;
+}
+.body-grid__button1 {
+  grid-area: one;
+}
+.body-grid__button0 {
+  grid-area: nill;
+}
+.body-grid__buttonDeci {
+  grid-area: deci;
+}
+.body-grid__buttonPlus {
+  grid-area: plus;
+}
+.body-grid__buttonMultiplication {
+  grid-area: product;
+}
+.body-grid__buttonSubtraction {
+  grid-area: minus;
+}
+.body-grid__buttonEqual {
+  grid-area: equal;
+}
+.body-grid__buttonBkspc {
+  grid-area: bkspc;
+}
+.body-grid__buttonClr {
+  grid-area: clr;
+}
+
+/*# sourceMappingURL=style.css.map */

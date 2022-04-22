@@ -1,0 +1,88 @@
+.body-grid {
+    display: grid;
+    max-width: 40vw;
+    max-height: 80vh;
+    gap: 5%;
+    grid-template-areas:
+        "out out out out"
+        "seven eight nine div"
+        "four five six product"
+        "one two three minus"
+        "nill deci plus equal"
+        "bkspc clr clr equal";
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #595959;
+
+    &__output {
+        grid-area: out;
+        border: 2px solid black;
+        border-radius: 5px;
+        background-color: #cfe0cf;
+        display: flex;
+        justify-content: center;
+        margin: 5%;
+    }
+
+    &__button7 {
+        grid-area: seven;
+        border: 5px solid pink;
+    }
+    &__button7--standard {
+        background-color: #f2f2f2;
+    }
+
+    &__buttondivide {
+        grid-area: div;
+    }
+
+    &__button9 {
+        grid-area: nine;
+    }
+    &__button8 {
+        grid-area: eight;
+    }
+
+    &__button6 {
+        grid-area: six;
+    }
+    &__button5 {
+        grid-area: five;
+    }
+    &__button4 {
+        grid-area: four;
+    }
+    &__button3 {
+        grid-area: three;
+    }
+    &__button2 {
+        grid-area: two;
+    }
+    &__button1 {
+        grid-area: one;
+    }
+    &__button0 {
+        grid-area: nill;
+    }
+    &__buttonDeci {
+        grid-area: deci;
+    }
+    &__buttonPlus {
+        grid-area: plus;
+    }
+    &__buttonMultiplication {
+        grid-area: product;
+    }
+    &__buttonSubtraction {
+        grid-area: minus;
+    }
+    &__buttonEqual {
+        grid-area: equal;
+    }
+    &__buttonBkspc {
+        grid-area: bkspc;
+    }
+    &__buttonClr {
+        grid-area: clr;
+    }
+}
