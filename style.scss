@@ -1,8 +1,8 @@
+@use "mixins" as *;
 .body-grid {
     display: grid;
     max-width: 40vw;
     max-height: 80vh;
-    gap: 5%;
     grid-template-areas:
         "out out out out"
         "seven eight nine div"
@@ -10,79 +10,170 @@
         "one two three minus"
         "nill deci plus equal"
         "bkspc clr clr equal";
-    border: 2px solid black;
     border-radius: 10px;
     background-color: #595959;
 
     &__output {
         grid-area: out;
-        border: 2px solid black;
+        border: 2px solid rgba(0, 0, 0, 0.186);
         border-radius: 5px;
         background-color: #cfe0cf;
         display: flex;
         justify-content: center;
         margin: 5%;
+        padding: 5%;
     }
 
     &__button7 {
         grid-area: seven;
-        border: 5px solid pink;
+        @include buttonspace;
     }
     &__button7--standard {
-        background-color: #f2f2f2;
+        @include buttonfont;
+        @include buttonstyle;
     }
 
     &__buttondivide {
-        grid-area: div;
+        @include buttonspace;
+    }
+    &__buttondivide--standard {
+        @include buttonfont;
+        @include buttonstyle;
     }
 
     &__button9 {
-        grid-area: nine;
+        @include buttonspace;
+    }
+    &__button9--standard {
+        @include buttonfont;
+        @include buttonstyle;
     }
     &__button8 {
-        grid-area: eight;
+        @include buttonspace;
+    }
+    &__button8--standard {
+        @include buttonfont;
+        @include buttonstyle;
     }
 
     &__button6 {
         grid-area: six;
+        @include buttonspace;
+    }
+
+    &__button6--standard {
+        @include buttonfont;
+        @include buttonstyle;
     }
     &__button5 {
         grid-area: five;
+        @include buttonspace;
+    }
+
+    &__button5--standard {
+        @include buttonfont;
+        @include buttonstyle;
     }
     &__button4 {
         grid-area: four;
+        @include buttonspace;
+    }
+    &__button4--standard {
+        @include buttonfont;
+        @include buttonstyle;
     }
     &__button3 {
         grid-area: three;
+        @include buttonspace;
+    }
+    &__button3--standard {
+        @include buttonfont;
+        @include buttonstyle;
     }
     &__button2 {
         grid-area: two;
+        @include buttonspace;
+    }
+    &__button2--standard {
+        @include buttonfont;
+        @include buttonstyle;
     }
     &__button1 {
         grid-area: one;
+        @include buttonspace;
+    }
+
+    &__button1--standard {
+        @include buttonfont;
+        @include buttonstyle;
     }
     &__button0 {
         grid-area: nill;
+        @include buttonspace;
+    }
+    &__button0--standard {
+        @include buttonfont;
+        @include buttonstyle;
     }
     &__buttonDeci {
         grid-area: deci;
+        @include buttonspace;
     }
+    &__buttonDeci--standard {
+        @include buttonfont;
+        @include buttonstyle;
+    }
+
     &__buttonPlus {
         grid-area: plus;
+        @include buttonspace;
+    }
+    &__buttonPlus--standard {
+        @include buttonfont;
+        @include buttonstyle;
     }
     &__buttonMultiplication {
         grid-area: product;
+        @include buttonspace;
+    }
+    &__buttonMultiplication--standard {
+        @include buttonfont;
+        @include buttonstyle;
     }
     &__buttonSubtraction {
         grid-area: minus;
+        @include buttonspace;
+    }
+    &__buttonSubtraction--standard {
+        @include buttonfont;
+        @include buttonstyle;
     }
     &__buttonEqual {
         grid-area: equal;
+        @include buttonspace;
+    }
+
+    &__buttonEqual--standard--orange {
+        @include buttonfont;
+        @include buttonStyleColour;
     }
     &__buttonBkspc {
         grid-area: bkspc;
+        @include buttonspace;
+    }
+    &__buttonBkspc--standard {
+        @include buttonfont;
+        @include buttonstyle;
     }
     &__buttonClr {
         grid-area: clr;
+        @include buttonspace;
+    }
+    &__buttonClr--standard--dble {
+        @include buttonfont;
+        background-color: #f2f2f2;
+        padding: 20%;
+        margin: 10%;
+        border-radius: 5px;
     }
 }
