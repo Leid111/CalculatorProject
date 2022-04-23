@@ -8,6 +8,9 @@
   grid-template-areas: "out out out out" "seven eight nine div" "four five six product" "one two three minus" "nill deci plus equal" "bkspc clr clr equal";
   border-radius: 10px;
   background-color: #595959;
+  grid-template-columns: 20vh 20vh 20vh 20vh;
+  grid-template-rows: 10vw 5vw 5vw 5vw 5vw 5vw;
+  margin: 3%;
 }
 .body-grid__output {
   grid-area: out;
@@ -17,12 +20,11 @@
   display: flex;
   justify-content: center;
   margin: 5%;
-  padding: 2%;
 }
 .body-grid__button7 {
   grid-area: seven;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .body-grid__button7--standard {
   font-family: Nunito, sans-serif;
@@ -35,7 +37,7 @@
 }
 .body-grid__buttondivide {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .body-grid__buttondivide--standard {
   font-family: Nunito, sans-serif;
@@ -48,7 +50,7 @@
 }
 .body-grid__button9 {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .body-grid__button9--standard {
   font-family: Nunito, sans-serif;
@@ -61,7 +63,7 @@
 }
 .body-grid__button8 {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .body-grid__button8--standard {
   font-family: Nunito, sans-serif;
@@ -75,7 +77,7 @@
 .body-grid__button6 {
   grid-area: six;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .body-grid__button6--standard {
   font-family: Nunito, sans-serif;
@@ -89,7 +91,7 @@
 .body-grid__button5 {
   grid-area: five;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .body-grid__button5--standard {
   font-family: Nunito, sans-serif;
@@ -103,7 +105,7 @@
 .body-grid__button4 {
   grid-area: four;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .body-grid__button4--standard {
   font-family: Nunito, sans-serif;
@@ -117,7 +119,7 @@
 .body-grid__button3 {
   grid-area: three;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .body-grid__button3--standard {
   font-family: Nunito, sans-serif;
@@ -131,7 +133,7 @@
 .body-grid__button2 {
   grid-area: two;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .body-grid__button2--standard {
   font-family: Nunito, sans-serif;
@@ -145,7 +147,7 @@
 .body-grid__button1 {
   grid-area: one;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .body-grid__button1--standard {
   font-family: Nunito, sans-serif;
@@ -159,7 +161,7 @@
 .body-grid__button0 {
   grid-area: nill;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .body-grid__button0--standard {
   font-family: Nunito, sans-serif;
@@ -173,7 +175,7 @@
 .body-grid__buttonDeci {
   grid-area: deci;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .body-grid__buttonDeci--standard {
   font-family: Nunito, sans-serif;
@@ -187,7 +189,7 @@
 .body-grid__buttonPlus {
   grid-area: plus;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .body-grid__buttonPlus--standard {
   font-family: Nunito, sans-serif;
@@ -201,7 +203,7 @@
 .body-grid__buttonMultiplication {
   grid-area: product;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .body-grid__buttonMultiplication--standard {
   font-family: Nunito, sans-serif;
@@ -215,7 +217,7 @@
 .body-grid__buttonSubtraction {
   grid-area: minus;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .body-grid__buttonSubtraction--standard {
   font-family: Nunito, sans-serif;
@@ -229,7 +231,7 @@
 .body-grid__buttonEqual {
   grid-area: equal;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .body-grid__buttonEqual--standard--orange {
   font-family: Nunito, sans-serif;
@@ -244,7 +246,7 @@
 .body-grid__buttonBkspc {
   grid-area: bkspc;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .body-grid__buttonBkspc--standard {
   font-family: Nunito, sans-serif;
@@ -258,7 +260,7 @@
 .body-grid__buttonClr {
   grid-area: clr;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .body-grid__buttonClr--standard--dble {
   font-family: Nunito, sans-serif;

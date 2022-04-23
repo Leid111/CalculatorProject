@@ -14,6 +14,9 @@
         "bkspc clr clr equal";
     border-radius: 10px;
     background-color: #595959;
+    grid-template-columns: 20vh 20vh 20vh 20vh;
+    grid-template-rows: 10vw 5vw 5vw 5vw 5vw 5vw;
+    margin: 3%;
 
     &__output {
         grid-area: out;
@@ -23,7 +26,6 @@
         display: flex;
         justify-content: center;
         margin: 5%;
-        padding: 2%;
     }
 
     &__button7 {
