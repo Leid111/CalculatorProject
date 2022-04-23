@@ -12,29 +12,36 @@
         "one two three minus"
         "nill deci plus equal"
         "bkspc clr clr equal";
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: #595959;
     grid-template-columns: 20vh 20vh 20vh 20vh;
     grid-template-rows: 10vw 5vw 5vw 5vw 5vw 5vw;
     margin: 3%;
+    max-width: 36%;
 
     &__output {
         grid-area: out;
         border: 2px solid rgba(0, 0, 0, 0.186);
-        border-radius: 5px;
+        border-radius: 20px;
         background-color: #cfe0cf;
         display: flex;
         justify-content: center;
+        align-items: center;
         margin: 5%;
     }
 
     &__button7 {
         grid-area: seven;
         @include buttonspace;
+        margin-left: 2%;
     }
     &__button7--standard {
         @include buttonfont;
         @include buttonstyle;
+
+        &:hover {
+            background-color: #f2f2f2dc;
+        }
     }
 
     &__buttondivide {
@@ -43,6 +50,9 @@
     &__buttondivide--standard {
         @include buttonfont;
         @include buttonstyle;
+        &:hover {
+            background-color: #f2f2f2dc;
+        }
     }
 
     &__button9 {
@@ -51,6 +61,9 @@
     &__button9--standard {
         @include buttonfont;
         @include buttonstyle;
+        &:hover {
+            background-color: #f2f2f2dc;
+        }
     }
     &__button8 {
         @include buttonspace;
@@ -58,6 +71,9 @@
     &__button8--standard {
         @include buttonfont;
         @include buttonstyle;
+        &:hover {
+            background-color: #f2f2f2dc;
+        }
     }
 
     &__button6 {
@@ -68,6 +84,9 @@
     &__button6--standard {
         @include buttonfont;
         @include buttonstyle;
+        &:hover {
+            background-color: #f2f2f2dc;
+        }
     }
     &__button5 {
         grid-area: five;
@@ -77,14 +96,21 @@
     &__button5--standard {
         @include buttonfont;
         @include buttonstyle;
+        &:hover {
+            background-color: #f2f2f2dc;
+        }
     }
     &__button4 {
         grid-area: four;
         @include buttonspace;
+        margin-left: 2%;
     }
     &__button4--standard {
         @include buttonfont;
         @include buttonstyle;
+        &:hover {
+            background-color: #f2f2f2dc;
+        }
     }
     &__button3 {
         grid-area: three;
@@ -93,6 +119,9 @@
     &__button3--standard {
         @include buttonfont;
         @include buttonstyle;
+        &:hover {
+            background-color: #f2f2f2dc;
+        }
     }
     &__button2 {
         grid-area: two;
@@ -101,23 +130,34 @@
     &__button2--standard {
         @include buttonfont;
         @include buttonstyle;
+        &:hover {
+            background-color: #f2f2f2dc;
+        }
     }
     &__button1 {
         grid-area: one;
         @include buttonspace;
+        margin-left: 2%;
     }
 
     &__button1--standard {
         @include buttonfont;
         @include buttonstyle;
+        &:hover {
+            background-color: #f2f2f2dc;
+        }
     }
     &__button0 {
         grid-area: nill;
         @include buttonspace;
+        margin-left: 2%;
     }
     &__button0--standard {
         @include buttonfont;
         @include buttonstyle;
+        &:hover {
+            background-color: #f2f2f2dc;
+        }
     }
     &__buttonDeci {
         grid-area: deci;
@@ -126,6 +166,9 @@
     &__buttonDeci--standard {
         @include buttonfont;
         @include buttonstyle;
+        &:hover {
+            background-color: #f2f2f2dc;
+        }
     }
 
     &__buttonPlus {
@@ -135,6 +178,9 @@
     &__buttonPlus--standard {
         @include buttonfont;
         @include buttonstyle;
+        &:hover {
+            background-color: #f2f2f2dc;
+        }
     }
     &__buttonMultiplication {
         grid-area: product;
@@ -143,6 +189,9 @@
     &__buttonMultiplication--standard {
         @include buttonfont;
         @include buttonstyle;
+        &:hover {
+            background-color: #f2f2f2dc;
+        }
     }
     &__buttonSubtraction {
         grid-area: minus;
@@ -151,6 +200,9 @@
     &__buttonSubtraction--standard {
         @include buttonfont;
         @include buttonstyle;
+        &:hover {
+            background-color: #f2f2f2dc;
+        }
     }
     &__buttonEqual {
         grid-area: equal;
@@ -160,14 +212,22 @@
     &__buttonEqual--standard--orange {
         @include buttonfont;
         @include buttonStyleColour;
+        font-size: 40px;
+        &:hover {
+            background-color: #fdc384d0;
+        }
     }
     &__buttonBkspc {
         grid-area: bkspc;
         @include buttonspace;
+        margin-left: 2%;
     }
     &__buttonBkspc--standard {
         @include buttonfont;
         @include buttonstyle;
+        &:hover {
+            background-color: #f2f2f2dc;
+        }
     }
     &__buttonClr {
         grid-area: clr;
@@ -179,5 +239,8 @@
         padding-left: 10%;
         padding-top: 0;
         padding-bottom: 0;
+        &:hover {
+            background-color: #f2f2f2dc;
+        }
     }
 }
