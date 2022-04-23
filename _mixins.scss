@@ -2,27 +2,23 @@
     font-family: Nunito, sans-serif;
     font-size: large;
     font-weight: bolder;
-    line-height: 100%;
     color: rgb(0, 0, 0);
 }
 
 @mixin buttonstyle {
     background-color: #f2f2f2;
-    padding: 20%;
-    margin: 10%;
-    border-radius: 5px;
+    padding: 10%;
+    border-radius: 10px;
 }
 
 @mixin buttonStyleColour {
     background-color: #fdc384;
-    padding: 20%;
-    margin: 10%;
-    border-radius: 5px;
+    padding: 10%;
+    border-radius: 10px;
     color: white;
 }
 
 @mixin buttonspace {
-    border: 5px solid;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }

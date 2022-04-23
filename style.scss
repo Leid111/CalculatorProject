@@ -1,8 +1,10 @@
 @use "mixins" as *;
+* {
+    padding: 0;
+    margin: 0;
+}
 .body-grid {
     display: grid;
-    max-width: 40vw;
-    max-height: 80vh;
     grid-template-areas:
         "out out out out"
         "seven eight nine div"
@@ -21,7 +23,7 @@
         display: flex;
         justify-content: center;
         margin: 5%;
-        padding: 5%;
+        padding: 2%;
     }
 
     &__button7 {
@@ -171,9 +173,9 @@
     }
     &__buttonClr--standard--dble {
         @include buttonfont;
-        background-color: #f2f2f2;
-        padding: 20%;
-        margin: 10%;
-        border-radius: 5px;
+        @include buttonstyle;
+        padding-left: 10%;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 }

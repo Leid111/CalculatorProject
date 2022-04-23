@@ -1,7 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .body-grid {
   display: grid;
-  max-width: 40vw;
-  max-height: 80vh;
   grid-template-areas: "out out out out" "seven eight nine div" "four five six product" "one two three minus" "nill deci plus equal" "bkspc clr clr equal";
   border-radius: 10px;
   background-color: #595959;
@@ -14,311 +17,260 @@
   display: flex;
   justify-content: center;
   margin: 5%;
-  padding: 5%;
+  padding: 2%;
 }
 .body-grid__button7 {
   grid-area: seven;
-  border: 5px solid;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .body-grid__button7--standard {
   font-family: Nunito, sans-serif;
   font-size: large;
   font-weight: bolder;
-  line-height: 100%;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 20%;
-  margin: 10%;
-  border-radius: 5px;
+  padding: 10%;
+  border-radius: 10px;
 }
 .body-grid__buttondivide {
-  border: 5px solid;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .body-grid__buttondivide--standard {
   font-family: Nunito, sans-serif;
   font-size: large;
   font-weight: bolder;
-  line-height: 100%;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 20%;
-  margin: 10%;
-  border-radius: 5px;
+  padding: 10%;
+  border-radius: 10px;
 }
 .body-grid__button9 {
-  border: 5px solid;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .body-grid__button9--standard {
   font-family: Nunito, sans-serif;
   font-size: large;
   font-weight: bolder;
-  line-height: 100%;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 20%;
-  margin: 10%;
-  border-radius: 5px;
+  padding: 10%;
+  border-radius: 10px;
 }
 .body-grid__button8 {
-  border: 5px solid;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .body-grid__button8--standard {
   font-family: Nunito, sans-serif;
   font-size: large;
   font-weight: bolder;
-  line-height: 100%;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 20%;
-  margin: 10%;
-  border-radius: 5px;
+  padding: 10%;
+  border-radius: 10px;
 }
 .body-grid__button6 {
   grid-area: six;
-  border: 5px solid;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .body-grid__button6--standard {
   font-family: Nunito, sans-serif;
   font-size: large;
   font-weight: bolder;
-  line-height: 100%;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 20%;
-  margin: 10%;
-  border-radius: 5px;
+  padding: 10%;
+  border-radius: 10px;
 }
 .body-grid__button5 {
   grid-area: five;
-  border: 5px solid;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .body-grid__button5--standard {
   font-family: Nunito, sans-serif;
   font-size: large;
   font-weight: bolder;
-  line-height: 100%;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 20%;
-  margin: 10%;
-  border-radius: 5px;
+  padding: 10%;
+  border-radius: 10px;
 }
 .body-grid__button4 {
   grid-area: four;
-  border: 5px solid;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .body-grid__button4--standard {
   font-family: Nunito, sans-serif;
   font-size: large;
   font-weight: bolder;
-  line-height: 100%;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 20%;
-  margin: 10%;
-  border-radius: 5px;
+  padding: 10%;
+  border-radius: 10px;
 }
 .body-grid__button3 {
   grid-area: three;
-  border: 5px solid;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .body-grid__button3--standard {
   font-family: Nunito, sans-serif;
   font-size: large;
   font-weight: bolder;
-  line-height: 100%;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 20%;
-  margin: 10%;
-  border-radius: 5px;
+  padding: 10%;
+  border-radius: 10px;
 }
 .body-grid__button2 {
   grid-area: two;
-  border: 5px solid;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .body-grid__button2--standard {
   font-family: Nunito, sans-serif;
   font-size: large;
   font-weight: bolder;
-  line-height: 100%;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 20%;
-  margin: 10%;
-  border-radius: 5px;
+  padding: 10%;
+  border-radius: 10px;
 }
 .body-grid__button1 {
   grid-area: one;
-  border: 5px solid;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .body-grid__button1--standard {
   font-family: Nunito, sans-serif;
   font-size: large;
   font-weight: bolder;
-  line-height: 100%;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 20%;
-  margin: 10%;
-  border-radius: 5px;
+  padding: 10%;
+  border-radius: 10px;
 }
 .body-grid__button0 {
   grid-area: nill;
-  border: 5px solid;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .body-grid__button0--standard {
   font-family: Nunito, sans-serif;
   font-size: large;
   font-weight: bolder;
-  line-height: 100%;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 20%;
-  margin: 10%;
-  border-radius: 5px;
+  padding: 10%;
+  border-radius: 10px;
 }
 .body-grid__buttonDeci {
   grid-area: deci;
-  border: 5px solid;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .body-grid__buttonDeci--standard {
   font-family: Nunito, sans-serif;
   font-size: large;
   font-weight: bolder;
-  line-height: 100%;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 20%;
-  margin: 10%;
-  border-radius: 5px;
+  padding: 10%;
+  border-radius: 10px;
 }
 .body-grid__buttonPlus {
   grid-area: plus;
-  border: 5px solid;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .body-grid__buttonPlus--standard {
   font-family: Nunito, sans-serif;
   font-size: large;
   font-weight: bolder;
-  line-height: 100%;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 20%;
-  margin: 10%;
-  border-radius: 5px;
+  padding: 10%;
+  border-radius: 10px;
 }
 .body-grid__buttonMultiplication {
   grid-area: product;
-  border: 5px solid;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .body-grid__buttonMultiplication--standard {
   font-family: Nunito, sans-serif;
   font-size: large;
   font-weight: bolder;
-  line-height: 100%;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 20%;
-  margin: 10%;
-  border-radius: 5px;
+  padding: 10%;
+  border-radius: 10px;
 }
 .body-grid__buttonSubtraction {
   grid-area: minus;
-  border: 5px solid;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .body-grid__buttonSubtraction--standard {
   font-family: Nunito, sans-serif;
   font-size: large;
   font-weight: bolder;
-  line-height: 100%;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 20%;
-  margin: 10%;
-  border-radius: 5px;
+  padding: 10%;
+  border-radius: 10px;
 }
 .body-grid__buttonEqual {
   grid-area: equal;
-  border: 5px solid;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .body-grid__buttonEqual--standard--orange {
   font-family: Nunito, sans-serif;
   font-size: large;
   font-weight: bolder;
-  line-height: 100%;
   color: rgb(0, 0, 0);
   background-color: #fdc384;
-  padding: 20%;
-  margin: 10%;
-  border-radius: 5px;
+  padding: 10%;
+  border-radius: 10px;
   color: white;
 }
 .body-grid__buttonBkspc {
   grid-area: bkspc;
-  border: 5px solid;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .body-grid__buttonBkspc--standard {
   font-family: Nunito, sans-serif;
   font-size: large;
   font-weight: bolder;
-  line-height: 100%;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 20%;
-  margin: 10%;
-  border-radius: 5px;
+  padding: 10%;
+  border-radius: 10px;
 }
 .body-grid__buttonClr {
   grid-area: clr;
-  border: 5px solid;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .body-grid__buttonClr--standard--dble {
   font-family: Nunito, sans-serif;
   font-size: large;
   font-weight: bolder;
-  line-height: 100%;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 20%;
-  margin: 10%;
-  border-radius: 5px;
+  padding: 10%;
+  border-radius: 10px;
+  padding-left: 10%;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
