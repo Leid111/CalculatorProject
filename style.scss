@@ -14,14 +14,13 @@
         "bkspc clr clr equal";
     border-radius: 20px;
     background-color: #595959;
-    grid-template-columns: 20vh 20vh 20vh 20vh;
+    grid-template-columns: 18vh 18vh 18vh 18vh;
     grid-template-rows: 10vw 5vw 5vw 5vw 5vw 5vw;
     margin: 3%;
-    max-width: 36%;
 
     &__output {
         grid-area: out;
-        border: 2px solid rgba(0, 0, 0, 0.186);
+        border: 6px solid rgba(0, 0, 0, 0.186);
         border-radius: 20px;
         background-color: #cfe0cf;
         display: flex;
