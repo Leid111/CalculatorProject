@@ -14,7 +14,7 @@
         "bkspc clr clr equal";
     border-radius: 20px;
     background-color: #595959;
-    grid-template-columns: 18vh 18vh 18vh 18vh;
+    grid-template-columns: 8vw 8vw 8vw 8vw;
     grid-template-rows: 10vw 5vw 5vw 5vw 5vw 5vw;
     margin: 3%;
 
@@ -32,7 +32,6 @@
     &__button7 {
         grid-area: seven;
         @include buttonspace;
-        margin-left: 2%;
     }
     &__button7--standard {
         @include buttonfont;
@@ -102,7 +101,6 @@
     &__button4 {
         grid-area: four;
         @include buttonspace;
-        margin-left: 2%;
     }
     &__button4--standard {
         @include buttonfont;
@@ -149,7 +147,6 @@
     &__button0 {
         grid-area: nill;
         @include buttonspace;
-        margin-left: 2%;
     }
     &__button0--standard {
         @include buttonfont;
@@ -211,7 +208,6 @@
     &__buttonEqual--standard--orange {
         @include buttonfont;
         @include buttonStyleColour;
-        font-size: 40px;
         &:hover {
             background-color: #fdc384d0;
         }
@@ -219,11 +215,11 @@
     &__buttonBkspc {
         grid-area: bkspc;
         @include buttonspace;
-        margin-left: 2%;
     }
     &__buttonBkspc--standard {
         @include buttonfont;
         @include buttonstyle;
+        padding: 0;
         &:hover {
             background-color: #f2f2f2dc;
         }
@@ -235,9 +231,9 @@
     &__buttonClr--standard--dble {
         @include buttonfont;
         @include buttonstyle;
-        padding-left: 10%;
-        padding-top: 0;
-        padding-bottom: 0;
+        padding: 0;
+        width: 75%;
+        height: 80%;
         &:hover {
             background-color: #f2f2f2dc;
         }

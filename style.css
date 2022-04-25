@@ -8,7 +8,7 @@
   grid-template-areas: "out out out out" "seven eight nine div" "four five six product" "one two three minus" "nill deci plus equal" "bkspc clr clr equal";
   border-radius: 20px;
   background-color: #595959;
-  grid-template-columns: 18vh 18vh 18vh 18vh;
+  grid-template-columns: 8vw 8vw 8vw 8vw;
   grid-template-rows: 10vw 5vw 5vw 5vw 5vw 5vw;
   margin: 3%;
 }
@@ -26,7 +26,6 @@
   grid-area: seven;
   display: flex;
   justify-content: center;
-  margin-left: 2%;
 }
 .body-grid__button7--standard {
   font-family: Nunito, sans-serif;
@@ -34,7 +33,7 @@
   font-weight: bolder;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 10%;
+  padding: 0;
   border-radius: 10px;
   width: 50%;
   height: 80%;
@@ -52,7 +51,7 @@
   font-weight: bolder;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 10%;
+  padding: 0;
   border-radius: 10px;
   width: 50%;
   height: 80%;
@@ -70,7 +69,7 @@
   font-weight: bolder;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 10%;
+  padding: 0;
   border-radius: 10px;
   width: 50%;
   height: 80%;
@@ -88,7 +87,7 @@
   font-weight: bolder;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 10%;
+  padding: 0;
   border-radius: 10px;
   width: 50%;
   height: 80%;
@@ -107,7 +106,7 @@
   font-weight: bolder;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 10%;
+  padding: 0;
   border-radius: 10px;
   width: 50%;
   height: 80%;
@@ -126,7 +125,7 @@
   font-weight: bolder;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 10%;
+  padding: 0;
   border-radius: 10px;
   width: 50%;
   height: 80%;
@@ -138,7 +137,6 @@
   grid-area: four;
   display: flex;
   justify-content: center;
-  margin-left: 2%;
 }
 .body-grid__button4--standard {
   font-family: Nunito, sans-serif;
@@ -146,7 +144,7 @@
   font-weight: bolder;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 10%;
+  padding: 0;
   border-radius: 10px;
   width: 50%;
   height: 80%;
@@ -165,7 +163,7 @@
   font-weight: bolder;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 10%;
+  padding: 0;
   border-radius: 10px;
   width: 50%;
   height: 80%;
@@ -184,7 +182,7 @@
   font-weight: bolder;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 10%;
+  padding: 0;
   border-radius: 10px;
   width: 50%;
   height: 80%;
@@ -204,7 +202,7 @@
   font-weight: bolder;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 10%;
+  padding: 0;
   border-radius: 10px;
   width: 50%;
   height: 80%;
@@ -216,7 +214,6 @@
   grid-area: nill;
   display: flex;
   justify-content: center;
-  margin-left: 2%;
 }
 .body-grid__button0--standard {
   font-family: Nunito, sans-serif;
@@ -224,7 +221,7 @@
   font-weight: bolder;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 10%;
+  padding: 0;
   border-radius: 10px;
   width: 50%;
   height: 80%;
@@ -243,7 +240,7 @@
   font-weight: bolder;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 10%;
+  padding: 0;
   border-radius: 10px;
   width: 50%;
   height: 80%;
@@ -262,7 +259,7 @@
   font-weight: bolder;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 10%;
+  padding: 0;
   border-radius: 10px;
   width: 50%;
   height: 80%;
@@ -281,7 +278,7 @@
   font-weight: bolder;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 10%;
+  padding: 0;
   border-radius: 10px;
   width: 50%;
   height: 80%;
@@ -300,7 +297,7 @@
   font-weight: bolder;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 10%;
+  padding: 0;
   border-radius: 10px;
   width: 50%;
   height: 80%;
@@ -319,12 +316,11 @@
   font-weight: bolder;
   color: rgb(0, 0, 0);
   background-color: #fdc384;
-  padding: 10%;
+  padding: 0;
   border-radius: 10px;
   color: white;
   width: 50%;
-  height: 80%;
-  font-size: 40px;
+  height: 90%;
 }
 .body-grid__buttonEqual--standard--orange:hover {
   background-color: rgba(253, 195, 132, 0.8156862745);
@@ -333,7 +329,6 @@
   grid-area: bkspc;
   display: flex;
   justify-content: center;
-  margin-left: 2%;
 }
 .body-grid__buttonBkspc--standard {
   font-family: Nunito, sans-serif;
@@ -341,10 +336,11 @@
   font-weight: bolder;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 10%;
+  padding: 0;
   border-radius: 10px;
   width: 50%;
   height: 80%;
+  padding: 0;
 }
 .body-grid__buttonBkspc--standard:hover {
   background-color: rgba(242, 242, 242, 0.862745098);
@@ -360,13 +356,13 @@
   font-weight: bolder;
   color: rgb(0, 0, 0);
   background-color: #f2f2f2;
-  padding: 10%;
+  padding: 0;
   border-radius: 10px;
   width: 50%;
   height: 80%;
-  padding-left: 10%;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding: 0;
+  width: 75%;
+  height: 80%;
 }
 .body-grid__buttonClr--standard--dble:hover {
   background-color: rgba(242, 242, 242, 0.862745098);
