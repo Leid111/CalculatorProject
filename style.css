@@ -8,9 +8,10 @@
   grid-template-areas: "out out out out" "seven eight nine div" "four five six product" "one two three minus" "nill deci plus equal" "bkspc clr clr equal";
   border-radius: 20px;
   background-color: #595959;
-  grid-template-columns: 8vw 8vw 8vw 8vw;
+  grid-template-columns: 5vw 5vw 5vw 5vw;
   grid-template-rows: 10vw 5vw 5vw 5vw 5vw 5vw;
   margin: 3%;
+  max-width: 20.5vw;
 }
 .body-grid__output {
   grid-area: out;
@@ -26,6 +27,7 @@
   grid-area: seven;
   display: flex;
   justify-content: center;
+  margin-left: 5px;
 }
 .body-grid__button7--standard {
   font-family: Nunito, sans-serif;
@@ -35,8 +37,8 @@
   background-color: #f2f2f2;
   padding: 0;
   border-radius: 10px;
-  width: 50%;
-  height: 80%;
+  width: 75px;
+  height: 75px;
 }
 .body-grid__button7--standard:hover {
   background-color: rgba(242, 242, 242, 0.862745098);
@@ -53,8 +55,8 @@
   background-color: #f2f2f2;
   padding: 0;
   border-radius: 10px;
-  width: 50%;
-  height: 80%;
+  width: 75px;
+  height: 75px;
 }
 .body-grid__buttondivide--standard:hover {
   background-color: rgba(242, 242, 242, 0.862745098);
@@ -71,8 +73,8 @@
   background-color: #f2f2f2;
   padding: 0;
   border-radius: 10px;
-  width: 50%;
-  height: 80%;
+  width: 75px;
+  height: 75px;
 }
 .body-grid__button9--standard:hover {
   background-color: rgba(242, 242, 242, 0.862745098);
@@ -89,8 +91,8 @@
   background-color: #f2f2f2;
   padding: 0;
   border-radius: 10px;
-  width: 50%;
-  height: 80%;
+  width: 75px;
+  height: 75px;
 }
 .body-grid__button8--standard:hover {
   background-color: rgba(242, 242, 242, 0.862745098);
@@ -108,8 +110,8 @@
   background-color: #f2f2f2;
   padding: 0;
   border-radius: 10px;
-  width: 50%;
-  height: 80%;
+  width: 75px;
+  height: 75px;
 }
 .body-grid__button6--standard:hover {
   background-color: rgba(242, 242, 242, 0.862745098);
@@ -127,8 +129,8 @@
   background-color: #f2f2f2;
   padding: 0;
   border-radius: 10px;
-  width: 50%;
-  height: 80%;
+  width: 75px;
+  height: 75px;
 }
 .body-grid__button5--standard:hover {
   background-color: rgba(242, 242, 242, 0.862745098);
@@ -137,6 +139,7 @@
   grid-area: four;
   display: flex;
   justify-content: center;
+  margin-left: 5px;
 }
 .body-grid__button4--standard {
   font-family: Nunito, sans-serif;
@@ -146,8 +149,8 @@
   background-color: #f2f2f2;
   padding: 0;
   border-radius: 10px;
-  width: 50%;
-  height: 80%;
+  width: 75px;
+  height: 75px;
 }
 .body-grid__button4--standard:hover {
   background-color: rgba(242, 242, 242, 0.862745098);
@@ -165,8 +168,8 @@
   background-color: #f2f2f2;
   padding: 0;
   border-radius: 10px;
-  width: 50%;
-  height: 80%;
+  width: 75px;
+  height: 75px;
 }
 .body-grid__button3--standard:hover {
   background-color: rgba(242, 242, 242, 0.862745098);
@@ -184,8 +187,8 @@
   background-color: #f2f2f2;
   padding: 0;
   border-radius: 10px;
-  width: 50%;
-  height: 80%;
+  width: 75px;
+  height: 75px;
 }
 .body-grid__button2--standard:hover {
   background-color: rgba(242, 242, 242, 0.862745098);
@@ -194,7 +197,7 @@
   grid-area: one;
   display: flex;
   justify-content: center;
-  margin-left: 2%;
+  margin-left: 5px;
 }
 .body-grid__button1--standard {
   font-family: Nunito, sans-serif;
@@ -204,8 +207,8 @@
   background-color: #f2f2f2;
   padding: 0;
   border-radius: 10px;
-  width: 50%;
-  height: 80%;
+  width: 75px;
+  height: 75px;
 }
 .body-grid__button1--standard:hover {
   background-color: rgba(242, 242, 242, 0.862745098);
@@ -214,6 +217,7 @@
   grid-area: nill;
   display: flex;
   justify-content: center;
+  margin-left: 5px;
 }
 .body-grid__button0--standard {
   font-family: Nunito, sans-serif;
@@ -223,8 +227,8 @@
   background-color: #f2f2f2;
   padding: 0;
   border-radius: 10px;
-  width: 50%;
-  height: 80%;
+  width: 75px;
+  height: 75px;
 }
 .body-grid__button0--standard:hover {
   background-color: rgba(242, 242, 242, 0.862745098);
@@ -242,8 +246,8 @@
   background-color: #f2f2f2;
   padding: 0;
   border-radius: 10px;
-  width: 50%;
-  height: 80%;
+  width: 75px;
+  height: 75px;
 }
 .body-grid__buttonDeci--standard:hover {
   background-color: rgba(242, 242, 242, 0.862745098);
@@ -261,8 +265,8 @@
   background-color: #f2f2f2;
   padding: 0;
   border-radius: 10px;
-  width: 50%;
-  height: 80%;
+  width: 75px;
+  height: 75px;
 }
 .body-grid__buttonPlus--standard:hover {
   background-color: rgba(242, 242, 242, 0.862745098);
@@ -280,8 +284,8 @@
   background-color: #f2f2f2;
   padding: 0;
   border-radius: 10px;
-  width: 50%;
-  height: 80%;
+  width: 75px;
+  height: 75px;
 }
 .body-grid__buttonMultiplication--standard:hover {
   background-color: rgba(242, 242, 242, 0.862745098);
@@ -299,8 +303,8 @@
   background-color: #f2f2f2;
   padding: 0;
   border-radius: 10px;
-  width: 50%;
-  height: 80%;
+  width: 75px;
+  height: 75px;
 }
 .body-grid__buttonSubtraction--standard:hover {
   background-color: rgba(242, 242, 242, 0.862745098);
@@ -319,8 +323,8 @@
   padding: 0;
   border-radius: 10px;
   color: white;
-  width: 50%;
-  height: 90%;
+  width: 75px;
+  height: 150px;
 }
 .body-grid__buttonEqual--standard--orange:hover {
   background-color: rgba(253, 195, 132, 0.8156862745);
@@ -338,9 +342,10 @@
   background-color: #f2f2f2;
   padding: 0;
   border-radius: 10px;
-  width: 50%;
-  height: 80%;
+  width: 75px;
+  height: 75px;
   padding: 0;
+  margin-left: 5px;
 }
 .body-grid__buttonBkspc--standard:hover {
   background-color: rgba(242, 242, 242, 0.862745098);
@@ -358,11 +363,11 @@
   background-color: #f2f2f2;
   padding: 0;
   border-radius: 10px;
-  width: 50%;
-  height: 80%;
+  width: 75px;
+  height: 75px;
   padding: 0;
-  width: 75%;
-  height: 80%;
+  width: 150px;
+  height: 75px;
 }
 .body-grid__buttonClr--standard--dble:hover {
   background-color: rgba(242, 242, 242, 0.862745098);
