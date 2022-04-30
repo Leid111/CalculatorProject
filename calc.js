@@ -5,7 +5,6 @@ for (let i = 0; i < numbersKeys.length; i++) {
     const button = document.getElementById("numbersButton" + number);
     button.addEventListener("click", () => numberInput(number));
 }
-
 // funtions
 
 //display on the dispay
@@ -41,7 +40,7 @@ const operatorKeys = (o) => {
     n1 += number;
     operator = o;
     number = 0;
-    display(n1 + o);
+    display(o);
     n1 = parseFloat(n1);
 };
 
@@ -61,6 +60,7 @@ const equals = (n1, operator, number) => {
         result = n1 / number;
         display(result);
     }
+    console.log(result);
     return result;
 };
 
@@ -84,3 +84,6 @@ buttonDivide.addEventListener("click", () => operatorKeys("/"));
 
 const buttonEqual = document.getElementById("buttonEqual");
 buttonEqual.addEventListener("click", () => equals(n1, operator, number));
+
+const buttonDeci = document.getElementById("buttonDeci");
+buttonDeci.addEventListener("click", () => numberInput("."));
