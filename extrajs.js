@@ -1,6 +1,9 @@
 const numberInput = (n) => {
-    if (n) {number += n;
-    display(number);
+    if (number.includes(operator)) {
+    } else {
+        number += n;
+        display(number);
+    }
 };
 
 const buttonInput = (event) => {
@@ -9,15 +12,16 @@ const buttonInput = (event) => {
             firstValue = parseFloat(digitArray.join(""));
             theOperation = event;
             digitArray.length = 0;
-        } return;
+        }
+        return;
     }
-    if (event == '=') {
+    if (event == "=") {
         secondValue = parseFloat(digitArray.join(""));
         return solveEquation();
     }
     digitArray.push(event);
     updateDisplay(digitArray.join(""));
-}
+};
 
 const numbersButton1 = document.getElementById("numbersButton1");
 numbersButton1.addEventListener("click", () => numberInput("1"));
