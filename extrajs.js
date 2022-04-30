@@ -1,3 +1,24 @@
+const numberInput = (n) => {
+    if (n) {number += n;
+    display(number);
+};
+
+const buttonInput = (event) => {
+    if (operators.includes(event)) {
+        if (firstValue == undefined) {
+            firstValue = parseFloat(digitArray.join(""));
+            theOperation = event;
+            digitArray.length = 0;
+        } return;
+    }
+    if (event == '=') {
+        secondValue = parseFloat(digitArray.join(""));
+        return solveEquation();
+    }
+    digitArray.push(event);
+    updateDisplay(digitArray.join(""));
+}
+
 const numbersButton1 = document.getElementById("numbersButton1");
 numbersButton1.addEventListener("click", () => numberInput("1"));
 // const numbersButton2 = document.getElementById("numbersButton2");
