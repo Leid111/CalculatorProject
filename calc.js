@@ -37,15 +37,16 @@ let operator = "";
 let n1 = "";
 let n2 = "";
 const operatorKeys = (o) => {
-    n1 += number;
+    n1 = number;
     operator = o;
-    number = 0;
+    number = "";
     display(o);
     n1 = parseFloat(n1);
 };
 
 //Euqals Functions
 const equals = (n1, operator, number) => {
+    number = parseFloat(number);
     let result = "";
     if (operator === "+") {
         result = n1 + number;
