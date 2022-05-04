@@ -13,35 +13,34 @@ const display = (number) => {
 };
 
 // number 0-9 function
-let number = "";
+let currentNumber = "";
 const numberInput = (n) => {
-    number += n;
-    display(number);
+    currentNumber += n;
+    display(currentNumber);
 };
 
 //backspace function
 const backspace = () => {
-    number = number.slice(0, number.length - 1);
-    display(number);
+    currentNumber = currentNumber.slice(0, currentNumber.length - 1);
+    display(currentNumber);
 };
 
 //AC function
 const clear = () => {
-    number = "";
-    n1 = "";
-    display(number);
+    currentNumber = "";
+    previousNumber = "";
+    display(currentNumber);
 };
 
 // operator function - i want to rename/reassign number varable to n1 and store the operany
 let operator = "";
-let n1 = "";
-let n2 = "";
+let previousNumber = "";
 const operatorKeys = (o) => {
-    n1 = number;
+    previousNumber = currentNumber;
     operator = o;
-    number = "";
+    currentNumber = "";
     display(o);
-    n1 = parseFloat(n1);
+    previousNumber = parseFloat(previousNumber);
 };
 
 //Euqals Functions
@@ -84,7 +83,9 @@ const buttonDivide = document.getElementById("buttonDivide");
 buttonDivide.addEventListener("click", () => operatorKeys("/"));
 
 const buttonEqual = document.getElementById("buttonEqual");
-buttonEqual.addEventListener("click", () => equals(n1, operator, number));
+buttonEqual.addEventListener("click", () =>
+    equals(previousNumber, operator, currentNumber)
+);
 
 const buttonDeci = document.getElementById("buttonDeci");
 buttonDeci.addEventListener("click", () => numberInput("."));
