@@ -44,20 +44,20 @@ const operatorKeys = (o) => {
 };
 
 //Euqals Functions
-const equals = (n1, operator, number) => {
-    number = parseFloat(number);
+const equals = (previousNumber, operator, currentNumber) => {
+    currentNumber = parseFloat(currentNumber);
     let result = "";
     if (operator === "+") {
-        result = n1 + number;
+        result = previousNumber + currentNumber;
         display(result);
     } else if (operator === "-") {
-        result = n1 - number;
+        result = previousNumber - currentNumber;
         display(result);
     } else if (operator === "x") {
-        result = n1 * number;
+        result = previousNumber * currentNumber;
         display(result);
     } else if (operator === "/") {
-        result = n1 / number;
+        result = previousNumber / currentNumber;
         display(result);
     }
     console.log(result);
